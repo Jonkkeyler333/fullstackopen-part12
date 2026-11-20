@@ -1,0 +1,18 @@
+PS C:\Users\keyle\OneDrive\Documentos\GitHub\fullstackopen-part12> docker container run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+96aae9022e0e: Pull complete 
+517b871c26ea: Pull complete 
+e211d985152c: Download complete 
+Digest: sha256:065aa8626841f16057b78b027b464cd59c4fac36c204c72dcbf48d66f5fa8a96
+Status: Downloaded newer image for ubuntu:latest
+root@bcd9069d263e:/# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@bcd9069d263e:/# cd /usr/src/    
+root@bcd9069d263e:/usr/src# mkdir app
+root@bcd9069d263e:/usr/src# cd app
+root@bcd9069d263e:/usr/src/app# touch index.js
+root@bcd9069d263e:/usr/src/app# cat index.js 
+root@bcd9069d263e:/usr/src/app# exit
+exit
+PS C:\Users\keyle\OneDrive\Documentos\GitHub\fullstackopen-part12> 
